@@ -2,7 +2,7 @@ import { combineReducers } from "redux";
 import formReducer from "./reducers/formReducer";
 
 const rootReducers = combineReducers({
-    form: formReducer
+    formReducer
 })
 
 export default rootReducers;

@@ -1,9 +1,12 @@
 import './styles/main.scss'
+import Sidebar from './components/Sidebar/Sidebar';
+import NavigationButtons from './components/NavigationButtons/NavigationButtons';
 
 function App() {
   return (
     <div className="App">
-      hello react
+      <Sidebar />
+      <NavigationButtons />
     </div>
   );
 }
